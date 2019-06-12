@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Week52Challenge</string>
+    <string name="week_number"># %1$d</string>
+    <string name="week">Week %1$d</string>
+    <string name="week_deposit">Deposit: KES %1$s</string>
+    <string name="total_saved">Total Saved: KES %1$s</string>
+    <string name="view_all"><u>View All</u></string>
+</resources>
