@@ -15,4 +15,7 @@ public class Utils {
         Double money = Double.parseDouble(String.valueOf(value));
         return formatter.format(money);
     }
+    public static boolean isValidAmount(Integer amount){
+        return amount < 50000000;
+    }
 }

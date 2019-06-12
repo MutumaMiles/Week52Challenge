@@ -35,7 +35,7 @@
                 android:layout_margin="20dp"
                 android:hint="Enter Starting Amount"
                 android:inputType="number"
-                android:text="@={amoutToSave.startAmout}"
+                android:text="1234"
                 android:id="@+id/amount_to_save"/>
         </LinearLayout>
 

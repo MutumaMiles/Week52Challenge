@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     try{
                         Integer amount = Integer.parseInt(s.toString());
-                        if(amount > 50000000){
+                        if(Utils.isValidAmount(amount)){
                             amoutEditText.setError("Amount should be less than 50000000");
                             mBottomSheetBehavior.setPeekHeight(0);
                             return;
